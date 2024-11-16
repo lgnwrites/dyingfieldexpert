@@ -1,0 +1,32 @@
+.rockstar-wrap {
+	margin: auto;
+	width: 70%;
+	border: .5em solid var(--lightAccentColor);
+	padding: 2em;
+}
+.rockstar-icon {
+	max-width: 5em; 
+	border-radius: .5em;}
+.rockstar-wrap .name {
+	float: right; 
+	margin: 1em; 
+	font-size: 2em;}
+.rockstar-wrap .reply {
+	background-color: var(--groupTwo);
+	filter: alpha(opacity=75); 
+	opacity: 0.75; 
+	padding: .5em;
+	border-radius: .25em;
+}
+.rockstar-wrap .act {
+	filter: alpha(opacity=75); 
+	opacity: 0.75; 
+	padding: .5em;
+	border-radius: .25em; 
+	font-size: .75em; 
+	text-align: right;
+}
+.rockstar-wrap .act:before {
+	content: "»"; 
+	margin-right: 1em;
+}
